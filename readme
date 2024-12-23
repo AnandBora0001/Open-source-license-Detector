@@ -1,1 +1,29 @@
-![License: MIT](https://img.shields.iobadge/License-MIT-green)
+# Open Source License Detector
+
+This is a simple web-based tool that detects the license type of open-source projects from uploaded text files (e.g., `.txt`, `.md`, or `.LICENSE` files). The detector looks for common open-source license keywords within the file and returns the corresponding license name.
+
+## Features
+- Upload a file containing license information (e.g., `LICENSE.txt`, `README.md`).
+- Detects popular open-source licenses including:
+  - MIT License
+  - GPL License
+  - Apache License
+  - BSD License
+  - Creative Commons License
+  - Mozilla Public License (MPL)
+  - LGPL (Lesser GPL)
+  - European Union Public License (EUPL)
+- Displays the detected license along with a link to its official documentation.
+- User-friendly and responsive interface.
+
+## How It Works
+1. Upload a `.txt`, `.md`, or `.LICENSE` file containing license information.
+2. The detector scans the content for known keywords (e.g., "MIT", "GPL", "Apache License").
+3. The tool identifies the license type and displays it along with a link to the official page for more information.
+
+## Getting Started
+
+### Prerequisites
+To run the application locally, you'll need:
+- A modern web browser (Chrome, Firefox, etc.)
+- Basic understanding of HTML, JavaScript, and CSS.
